@@ -7,7 +7,7 @@ from typing import Dict, List, Optional
 import numpy
 from OpenGL import GL
 
-from .graphics_plugin import Cube, IGraphicsPlugin
+from graphics_plugin import Cube, IGraphicsPlugin
 
 if platform.system() == "Windows":
     from OpenGL import WGL
@@ -17,9 +17,9 @@ import glfw
 
 import xr
 
-from .geometry import c_cubeVertices, c_cubeIndices, Vertex
-from .linear import GraphicsAPI, Matrix4x4f
-from .options import Options
+from geometry import c_cubeVertices, c_cubeIndices, Vertex
+from linear import GraphicsAPI, Matrix4x4f
+from options import Options
 
 logger = logging.getLogger("hello_xr.graphics_plugin_opengl")
 

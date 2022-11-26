@@ -23,9 +23,9 @@ from typing import List, Optional
 
 import xr.raw_functions
 
-from .graphics_plugin import Cube, IGraphicsPlugin
-from .platform_plugin import IPlatformPlugin
-from .options import Options
+from graphics_plugin import Cube, IGraphicsPlugin
+from platform_plugin import IPlatformPlugin
+from options import Options
 
 logger = logging.getLogger("hello_xr.program")
 

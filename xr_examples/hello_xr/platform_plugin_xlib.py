@@ -1,7 +1,7 @@
 from ctypes import Structure
 from typing import Optional
 
-from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
+from platform_plugin import IPlatformPlugin
 
 
 class XlibPlatformPlugin(IPlatformPlugin):

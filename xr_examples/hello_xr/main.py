@@ -11,13 +11,13 @@ import time
 
 import xr
 
-from xr_examples.hello_xr.graphics_plugin import IGraphicsPlugin
-from xr_examples.hello_xr.platform_plugin import IPlatformPlugin
-from xr_examples.hello_xr.openxr_program import OpenXRProgram
-from xr_examples.hello_xr.graphics_plugin_opengl import OpenGLGraphicsPlugin
-from xr_examples.hello_xr.platform_plugin_win32 import Win32PlatformPlugin
-from xr_examples.hello_xr.platform_plugin_xlib import XlibPlatformPlugin
-from .options import Options
+from graphics_plugin import IGraphicsPlugin
+from platform_plugin import IPlatformPlugin
+from openxr_program import OpenXRProgram
+from graphics_plugin_opengl import OpenGLGraphicsPlugin
+from platform_plugin_win32 import Win32PlatformPlugin
+from platform_plugin_xlib import XlibPlatformPlugin
+from options import Options
 
 key_press_event = threading.Event()
 logger = logging.getLogger("hello_xr.main")
